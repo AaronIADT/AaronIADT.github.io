@@ -1,0 +1,112 @@
+/*margin auto makes out container float in the middle*/
+.container {
+    width :1140px;
+    margin:auto;
+    overflow:hidden; /*This ignores elements have broken the doc flow*/
+}
+
+.one {
+    width:65px;
+    margin-left:15px;
+    margin-right:15px;
+    float:left;
+}
+
+.two {
+    width:160px;
+    margin-left:15px;
+    margin-right:15px;
+    float:left;
+}
+
+.three {
+    width:255px;
+    margin-left:15px;
+    margin-right:15px;
+    float:left;
+}
+
+.four {
+    width:350px;
+    margin-left:15px;
+    margin-right:15px;
+    float:left;
+}
+
+.five {
+    width:445px;
+    margin-left:15px;
+    margin-right:15px;
+    float:left;
+}
+
+.six {
+    width:540px;
+    margin-left:15px;
+    margin-right:15px;
+    float:left;
+}
+
+.seven {
+    width:635px;
+    margin-left:15px;
+    margin-right:15px;
+    float:left;
+}
+
+.eight {
+    width:730px;
+    margin-left:15px;
+    margin-right:15px;
+    float:left;
+}
+
+.nine {
+    width:825px;
+    margin-left:15px;
+    margin-right:15px;
+    float:left;
+}
+
+.ten {
+    width:920px;
+    margin-left:15px;
+    margin-right:15px;
+    float:left;
+}
+
+.eleven {
+    width:1015px;
+    margin-left:15px;
+    margin-right:15px;
+    float:left;
+}
+
+.twelve {
+    width:1110px;
+    margin-left:15px;
+    margin-right:15px;
+    float:left;
+}
+
+.alpha {
+    margin-left:0px;
+}
+
+.omega{
+    margin-right:0px;
+}
+
+/*
+clearfix
+http://sonspring.com/journal/clearing-floats
+*/
+
+.clear {
+    clear:both;
+    display:block;
+    overflow:hidden;
+    visibility:hidden;
+    width:0;
+    height:0;
+}
